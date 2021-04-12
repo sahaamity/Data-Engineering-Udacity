@@ -27,14 +27,14 @@ We have created an ETL pipeline that collects data from the files and inserts th
 
 ##Project Files 
 
-There are seven files in this project :
-1.data - This folder contains the log and song datasets.
-2.etl.ipynb - This is a jupyter notebook which was used to create the skeleton for the pipeline. It is kind of a workbook.
-3.test.ipynb - This jupyter notebook checks whether the written scripts for creating tables and inserting data are working fine or not.
-4.create_tables.py - This program contains PostgreSQL queries for creating the database and tables.
-5.etl.py - This script contains the complete ETL pipeline for the project.
-6.Readme.md - Documentation regarding the project.
-7.sql_queries.py - This python script contains the create and insert contains for the database.
+There are six files in this project :
+
+1.etl.ipynb - This is a jupyter notebook which was used to create the skeleton for the pipeline. It is kind of a workbook.
+2.test.ipynb - This jupyter notebook checks whether the written scripts for creating tables and inserting data are working fine or not.
+3.create_tables.py - This program contains PostgreSQL queries for creating the database and tables.
+4.etl.py - This script contains the complete ETL pipeline for the project.
+5.Readme.md - Documentation regarding the project.
+6.sql_queries.py - This python script contains the create and insert contains for the database.
 
 ##Steps to follow :
 
